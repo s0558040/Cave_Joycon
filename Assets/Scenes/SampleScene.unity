@@ -543,22 +543,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1784554797}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1007972971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007972970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43d0132ca94514243858280c8d926924, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gravityArrow: {fileID: 1056755234986706, guid: 4f83a5791e2e3bb4a88046f2212ebcd5,
-    type: 3}
-  joyConLeft: {fileID: 2561257437226597858, guid: 7891728136ddee8419dc1159cd0585b3,
-    type: 3}
 --- !u!1001 &1048384522
 PrefabInstance:
   m_ObjectHideFlags: 0

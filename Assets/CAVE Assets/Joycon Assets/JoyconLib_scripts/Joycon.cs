@@ -274,16 +274,6 @@ namespace JoyconAPI
             return gyr_g;
         }
 
-        /// <summary>
-        /// Measures the rotation of the joycon, optimized for Unity
-        /// </summary>
-        /// <returns>
-        /// Returns the rotation of the joycon as a Vector3-object
-        /// </returns>
-        public Vector3 GetGyroUnity()
-        {
-            return new Vector3(gyr_g.z, gyr_g.y, -gyr_g.x);
-        }
         ///<summary>
         ///Measures the acceleration of the joycon
         ///</summary>
@@ -293,17 +283,6 @@ namespace JoyconAPI
         public Vector3 GetAccel()
         {
             return acc_g;;
-        }
-
-        /// <summary>
-        /// Measures the acceleration of the joyconm optimized for Unity
-        /// </summary>
-        /// <returns>
-        /// Return the acceleration-meter, indicating where down is
-        /// </returns>
-        public Vector3 GetAccelUnity()
-        {
-            return new Vector3(acc_g.z, acc_g.y - acc_g.x);
         }
 
         ///<summary>
